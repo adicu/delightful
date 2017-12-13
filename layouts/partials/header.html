@@ -1,0 +1,16 @@
+<header>
+    {{ range $.Site.Data }}
+
+    <div class="row">
+
+        {{ range .people }}
+            <div class="column nav-person">
+                <a class="nav-person" href="#">
+                    {{ . }}
+                </a>
+            </div>
+        {{ end }}
+
+    </div>
+    {{ end }}
+</header>
