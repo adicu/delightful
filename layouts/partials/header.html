@@ -1,11 +1,12 @@
 <header>
+<!--
     {{ range $.Site.Data }}
 
     <div class="row">
 
         {{ range .people }}
             <div class="column nav-person">
-                <a class="nav-person" href="#">
+                <a class="nav-person" href="/{{ . }}/">
                     {{ . }}
                 </a>
             </div>
@@ -13,4 +14,14 @@
 
     </div>
     {{ end }}
+-->
+
+<div class="row">
+    {{ range .Data.Pages }}
+        <div class="column nav-person">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
+    {{ end }}
+</div>
+
 </header>

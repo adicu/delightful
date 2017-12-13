@@ -9,8 +9,8 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
     </head>
+
     <body>
         <div class="container">
 
@@ -23,7 +23,11 @@
                 </div>
 
                 <div class="column column-75">
-                    <p>We are a print magazine about technology that publishes three times per year, with a small digital footprint. Want to know more? We are a print magazine about technology that publishes three times per year, with a small digital footprint. Want to know more? We are a print magazine about technology that publishes three times per year, with a small digital footprint. Want to know more?</p>
+                    <!--
+                    {{ range .Data.Pages }}
+                        <p>{{ .Render }}</p>
+                    {{ end }}
+                    -->
                 </div>
             </div>
 
