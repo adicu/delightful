@@ -9,6 +9,9 @@ h1 {
 }
 
 /* Classes */
+.avatar {
+    border-radius: 50%;
+}
 .column {
     text-align: center;
 }

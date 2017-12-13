@@ -8,8 +8,14 @@
 
             <div class="row">
                 <div class="column">
-                    {{ .Title }}
-                    {{ .Content }}
+                    <h1>{{ .Title }}</h1>
+                    <img class="avatar" src="{{ .Params.image }}"></img> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <p>{{ .Content }}</p>
                 </div>
             </div>
         </div>
