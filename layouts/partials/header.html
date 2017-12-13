@@ -1,27 +1,11 @@
-<header>
-<!--
-    {{ range $.Site.Data }}
+<head>
+    <title>DELIGHTFUL</title>
+    <link rel="shortcut icon" type="image/x-icon" href="moonshot.ico"/>
 
-    <div class="row">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Lato|Montserrat:400,600,700,700i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-        {{ range .people }}
-            <div class="column nav-person">
-                <a class="nav-person" href="/{{ . }}/">
-                    {{ . }}
-                </a>
-            </div>
-        {{ end }}
-
-    </div>
-    {{ end }}
--->
-
-<div class="row">
-    {{ range .Data.Pages }}
-        <div class="column nav-person">
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </div>
-    {{ end }}
-</div>
-
-</header>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>

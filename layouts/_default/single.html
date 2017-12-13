@@ -1,1 +1,17 @@
-single:
+{{ partial "header.html" . }}
+
+<body>
+    <div class="container">
+
+        {{ partial "navbar.html" . }}
+
+        <div class="row">
+            <div class="column">
+                {{ .Title }}
+                {{ .Content }}
+            </div>
+        </div>
+
+        {{ partial "footer.html" . }}
+    </div>
+</body>

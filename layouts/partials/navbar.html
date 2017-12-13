@@ -1,0 +1,11 @@
+<header>
+
+<div class="row">
+    {{ range .Data.Pages }}
+        <div class="column nav-person">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </div>
+    {{ end }}
+</div>
+
+</header>
