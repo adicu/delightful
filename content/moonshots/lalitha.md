@@ -1,8 +1,4 @@
 +++
 title = "Lalitha"
+img = "/img/lalitha.png"
 +++
-
-FOO
----
-
-> this is content from erinn lee's page

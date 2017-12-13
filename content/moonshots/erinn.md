@@ -1,8 +1,4 @@
 +++
 title = "Erinn"
+image = "/img/erinn.png"
 +++
-
-FOO
----
-
-> this is content from erinn lee's page

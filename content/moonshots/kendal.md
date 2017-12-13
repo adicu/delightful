@@ -1,8 +1,4 @@
 +++
 title = "Kendal"
+image = "/img/kendal.png"
 +++
-
-FOO
----
-
-> this is content from erinn lee's page

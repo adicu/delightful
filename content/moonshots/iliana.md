@@ -1,8 +1,4 @@
 +++
 title = "Iliana"
+image = "iliana.png"
 +++
-
-FOO
----
-
-> this is content from erinn lee's page

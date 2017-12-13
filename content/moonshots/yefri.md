@@ -1,8 +1,4 @@
 +++
 title = "Yefri"
+image = "/img/yefri.png"
 +++
-
-FOO
----
-
-> this is content from erinn lee's page
