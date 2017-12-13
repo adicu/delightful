@@ -3,15 +3,16 @@
 <body>
     <div class="container">
 
-        {{ partial "navbar.html" . }}
+        <div id="main">
+            {{ partial "navbar.html" . }}
 
-        <div class="row">
-            <div class="column">
-                {{ .Title }}
-                {{ .Content }}
+            <div class="row">
+                <div class="column">
+                    {{ .Title }}
+                    {{ .Content }}
+                </div>
             </div>
         </div>
-
         {{ partial "footer.html" . }}
     </div>
 </body>
