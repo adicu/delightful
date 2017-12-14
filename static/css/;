@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 0.8em
+}
+
+.hero-container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+#hero-text {
+    position: absolute;
+    padding: 0.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+#hero-image {
+    background-image: url("img/super-moon.png");
+}
+
+/* Classes */
+.avatar {
+    border-radius: 50%;
+}
+.column {
+    text-align: center;
+}
+.subtext {
+    padding: 0.2em;
+}
+
+/* IDs */
+#header {
+    padding: 1em 0;
+}
+#footer {
+    height: 50px;
+}
+#main {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+#nav-target {
+    padding: 1em 0;
+}
+
+/*
+#container {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}*/

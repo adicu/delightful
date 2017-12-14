@@ -1,8 +1,8 @@
 +++
 title = "Alice"
+image = "/img/alice.jpg"
 +++
 
-FOO
----
+Alice you are an incredible person to hang out with. I hope we can do amazing things together in ADI and that we become closer. Keep going with that smile and energy!
 
-> this is content from erinn lee's page
+Your confidence and brightness brings out the same in others. You're just really cool :)

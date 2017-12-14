@@ -3,6 +3,13 @@ body {
     text-align: center;
     background-color: #eff1fc;
 }
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+p {
+    color: #1e1e1e;
+}
 
 .hero-container {
     position: relative;
@@ -38,6 +45,9 @@ body {
 }
 
 /* Classes */
+.avatar {
+    border-radius: 50%;
+}
 .column {
     text-align: center;
 }
@@ -71,6 +81,26 @@ body {
     color: #4F5165;
 }
 
+/*
+#container {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}*/
 .nav-person a:hover { 
     color: white;
    /* background-color: #22a7f0;*/
