@@ -6,18 +6,16 @@
             <div id="main">
                 {{ partial "navbar.html" . }}
 
-                <div class="row">
-                    <div class="column">
-                        <h1>DELIGHT.</h1>
-                        <p class="subtext">ADI is all about growth. Part of our mission is to grow the CS community. The other part is to grow you. <strong>Stay delightful.</strong></p>
+ 
+                    <div class="hero-container"> 
+                        <div id="hero-text">moonshots</div>
+                        <div id="hero-image">
+                            <img src="{{ .Site.BaseURL }}/img/super-moon.png">
+                        </div>    
+                        <p class="subtext"> <strong>Stay delightful.</strong></p>
                     </div>
                     
                     <div class="column column-75">
-                        <!--
-                        {{ range .Data.Pages }}
-                            <p>{{ .Render }}</p>
-                        {{ end }}
-                        -->
                     </div>
                 </div>
             </div>

@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<body>
+    <div class="container">
+        <div id="main">
+            {{ partial "navbar.html" . }}
+
+            <div class="row">
+                <div class="column">
+                    <h1>{{ .Title }}
+                    <h2>{{ .Params.school }}&nbsp;&nbsp;&middot;&nbsp;&nbsp;{{ .Params.year }}</h2>
+                    <img class="avatar" src="{{ .Params.image }}"></img>
+                </div>
+
+                <div class="column column-75">
+                    <p>{{ .Content }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
