@@ -70,7 +70,8 @@ p {
     padding: 1em 0;
 }
 
-#nav-text {
+.nav-person a {
+    color: black;
 }
 
 /*
@@ -93,3 +94,11 @@ p {
   left: 150px;
   top: 350px;
 }*/
+.nav-person a:hover { 
+    color: white;
+    background-color: #22a7f0;
+    padding-left:7px;
+    padding-right:7px;
+    padding-top:3px;
+    padding-bottom:4px;
+}
