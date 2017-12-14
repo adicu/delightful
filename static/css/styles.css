@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    margin: 0 auto;
+    background-color: #eff1fc;
 }
 h2 {
     font-family: 'Lato', sans-serif;
@@ -12,19 +12,35 @@ p {
 }
 
 .hero-container {
-    height: 400px;
-    width: 400px;
     position: relative;
+    width: 100%;
 }
 
 #hero-text {
-    position: absolute;
-    padding: 0.2em;
+    position: absolute; 
+    top: 130px; 
+    z-index: 999;
+    left: 0; 
+    width: 100%; 
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+    color: #4F5165;
+    font-size: 700%;
+    background: -webkit-linear-gradient(right, #6a6c89 , #4F5165);
+    background: -o-linear-gradient(left, #6a6c89, #4F5165);
+    background: -moz-linear-gradient(left, #6a6c89, #4F5165);
+    background: linear-gradient(to left, #6a6c89,  #4F5165); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #hero-image {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    opacity: .5;
+    width: 50%;
     background-image: url("img/super-moon.png");
 }
 
@@ -52,6 +68,9 @@ p {
 }
 #nav-target {
     padding: 1em 0;
+}
+
+#nav-text {
 }
 
 /*
