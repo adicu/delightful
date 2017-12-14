@@ -81,26 +81,20 @@ p {
     color: #4F5165;
 }
 
-/*
-#container {
-  height: 400px;
-  width: 400px;
-  position: relative;
+.person-title {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+    color: #4F5165;
 }
-#image {
-  position: absolute;
-  left: 0;
-  top: 0;
+
+.person-content {
+    font-family: 'Lato', sans-serif;
+    color: #4F5165;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-#text {
-  z-index: 100;
-  position: absolute;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  left: 150px;
-  top: 350px;
-}*/
+
 .nav-person a:hover { 
     color: white;
    /* background-color: #22a7f0;*/
