@@ -4,16 +4,20 @@
     <body>
         <div class="container">
             <div id="main">
+            <div id="nav-text">
                 {{ partial "navbar.html" . }}
+            </div>
 
- 
-                    <div class="hero-container"> 
-                        <div id="hero-text">moonshots</div>
-                        <div id="hero-image">
-                            <img src="{{ .Site.BaseURL }}/img/super-moon.png">
-                        </div>    
-                        <p class="subtext"> <strong>Stay delightful.</strong></p>
+            <div class="column"> 
+                <div class="hero-container"> 
+                    <div id="hero-text">moonshots</div>
+                    <div id="hero-image">
+                        <img src="{{ .Site.BaseURL }}/img/super-moon.png">
                     </div>
+                    </div>
+                    
+
+            </div>
 
 
                 <!--<div class="column column-75">
@@ -22,9 +26,8 @@
                     {{ end }}
 
                 </div> -->
-            </div>
+</div>
 
-            {{ partial "footer.html" . }}
         </div>
     </body>
 </html>
