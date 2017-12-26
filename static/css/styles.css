@@ -18,7 +18,7 @@ p {
 
 #hero-text {
     position: absolute; 
-    top: 130px; 
+    top: 60px; 
     z-index: 999;
     left: 0; 
     width: 100%; 
@@ -26,7 +26,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     color: #4F5165;
-    font-size: 700%;
+    font-size: 250%;
     background: -webkit-linear-gradient(right, #6a6c89 , #4F5165);
     background: -o-linear-gradient(left, #6a6c89, #4F5165);
     background: -moz-linear-gradient(left, #6a6c89, #4F5165);

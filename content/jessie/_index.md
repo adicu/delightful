@@ -17,3 +17,6 @@ Jessie is such a positive influence to all those around her. I'll be missing her
 
 i have stared excellence in the face, and it is beautiful. jessie you have the singular ability to have all your shit together and similtaneously be a complete mess, and it inspires me. you're someone i can always count on to be angsty and existential with (lmao), but then behind that you can be so sincere and perceptive, and you give great advice. you’ve been a kind and sensitive friend and i will miss you next semester!
 
+HELLO BEAN! I hope you have a blast in HK. Take tons of pics and eat some lit tofu for me!!! your quirky, fun, intelligent self will be very missed
+
+Jessie! I'm so glad I got to know you better this semester! You are so chill and such a open person. I can't wait to hear about your study abroad experience in Hong Kong. Eat a shit ton and have fun! 
