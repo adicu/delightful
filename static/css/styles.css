@@ -18,7 +18,7 @@ p {
 
 #hero-text {
     position: absolute; 
-    top: 60px; 
+    top: 150px; 
     z-index: 999;
     left: 0; 
     width: 100%; 
@@ -60,7 +60,14 @@ p {
     padding: 1em 0;
 }
 #footer {
+    margin-top: 50px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
     height: 50px;
+    color: #4F5165;
+}
+#footer a {
+    color: #22a7f0;
 }
 #main {
     min-height: 100%;
@@ -71,32 +78,28 @@ p {
 }
 
 .nav-person a {
-    color: black;
+    font-family: 'Karla', sans-serif;
+    color: #4F5165;
 }
 
-/*
-#container {
-  height: 400px;
-  width: 400px;
-  position: relative;
+.person-title {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+    color: #4F5165;
 }
-#image {
-  position: absolute;
-  left: 0;
-  top: 0;
+
+.person-content {
+    font-family: 'Lato', sans-serif;
+    color: #4F5165;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-#text {
-  z-index: 100;
-  position: absolute;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  left: 150px;
-  top: 350px;
-}*/
+
 .nav-person a:hover { 
     color: white;
-    background-color: #22a7f0;
+   /* background-color: #22a7f0;*/
+    background-color: #4F5165;
     padding-left:7px;
     padding-right:7px;
     padding-top:3px;
